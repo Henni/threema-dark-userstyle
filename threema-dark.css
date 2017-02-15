@@ -1,0 +1,163 @@
+header, footer {
+    display: none;
+}
+
+a, a:link, a:visited {
+    color: #528bb4;
+}
+
+#main-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#main-wrapper.wide {
+    max-width: 100%;
+}
+
+#main {
+    border-radius: 0;
+}
+
+#conversation-header {
+    background: #282828;
+}
+
+#conversation {
+    background: #282828;
+}
+
+.material-icons.md-dark {
+    color: white;
+}
+
+#messenger.show-detail #navigation {
+    border-right-color: #444;
+}
+
+#navigation-header {
+    background-color: #282828;
+}
+
+#messenger #detail>div.ng-scope .detail-header {
+    color: white;
+    background-color: #282828;
+}
+
+/* image hotfix */
+#messenger #detail>div.ng-scope .detail-header .header-back-button {
+    filter: invert();
+}
+
+#messenger.show-detail #navigation {
+    background-color: #282828;
+}
+
+#navigation-conversations {
+    background-color: #282828;
+}
+
+#navigation-contacts .contact,
+#navigation-conversations .conversation {
+    color: white;
+    border-left-color: #282828;
+    border-bottom-color: #444;
+}
+
+#navigation-contacts .contact.inactive {
+    color: rgba(255,255,255, .8);
+}
+
+
+#navigation-conversations .conversation .conversation-box .receiver-box {
+    color: white;
+}
+
+#navigation-conversations .conversation .conversation-box .message-box .latest-message {
+ 	color: rgba(255,255,255,0.6);
+}
+
+#navigation-conversations .conversation.active {
+    background-color: #444;
+    border-left-color: #ddd;
+}
+
+#navigation-contacts .contact:hover,
+#navigation-conversations .conversation:hover:not(.active) {
+    background-color: #444;
+}
+
+/*Messages*/
+
+#conversation-chat .chat .message-in .bubble-triangle:before,
+#conversation-chat .chat .message-in .bubble-triangle:after {
+    background-color: #555;
+}
+
+#conversation-chat .chat .message-in .message-body {
+    background-color: #555;
+    color: white;
+}
+
+#conversation-chat .chat .message-out .bubble-triangle:before,
+#conversation-chat .chat .message-out .bubble-triangle:after {
+    background-color: #444;
+}
+
+#conversation-chat .chat .message-out .message-body {
+    background-color: #444;
+    color: white;
+}
+
+#conversation #conversation-footer {
+    background-color: #444;
+}
+
+#conversation-footer .material-icons {
+    color: white;
+}
+
+#conversation #conversation-footer compose-area>div:first-child>div:nth-of-type(2) {
+    border-color: #555;
+    background-color: #555;
+}
+
+#conversation #conversation-footer compose-area>div:first-child>div:nth-of-type(2) div.compose {
+    background-color: #333;
+    color: white;
+}
+
+#conversation #conversation-footer compose-area>div:first-child>div:nth-of-type(2) div.compose:before {
+    color: rgba(255,255,255,0.6);
+}
+
+#navigation-header .search input[type="text"] {
+    background-color: #333;
+    border-color: #555;
+    color: white;
+}
+
+#navigation-header .search input[type="text"]::-webkit-input-placeholder {
+    color: rgba(255,255,255,0.6);
+}
+
+/* emojis */
+.emojione-picker {
+    background-color: #282828;
+}
+
+.tab label {
+    background-color: #282828;
+    border-color: #282828;
+}
+
+.tab [type=radio]:checked ~ label {
+    background: #555;
+    border-color: #555;
+}
+
+.tab .content {
+    background-color: #282828;
+    border-color: #555;
+}
