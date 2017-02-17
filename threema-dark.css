@@ -46,7 +46,8 @@ a, a:link, a:visited {
 }
 
 /* image hotfix */
-#messenger #detail>div.ng-scope .detail-header .header-back-button {
+#messenger #detail>div.ng-scope .detail-header .header-back-button,
+.message-icon {
     filter: invert();
 }
 
