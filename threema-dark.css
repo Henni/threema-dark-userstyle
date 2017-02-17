@@ -89,6 +89,10 @@ a, a:link, a:visited {
     background-color: #444;
 }
 
+.message-icon {
+    filter: invert();
+}
+
 /*Messages*/
 
 #conversation-chat .chat .message-in .bubble-triangle:before,
